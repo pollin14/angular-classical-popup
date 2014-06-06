@@ -1,4 +1,6 @@
 angularjs-popup-service
 =======================
 
-Modern, simple and facy popup (alert, prompt, info) for Angularjs.
+Modern, simple and fancy popup (alert, prompt, info) for Angularjs.
+
+
