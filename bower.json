@@ -1,0 +1,43 @@
+{
+  "name": "angularjs-popup-service",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pollin14/angularjs-popup-service",
+  "authors": [
+    "Victor Aguilar <victor.aguilar@ciencias.unam.mx>"
+  ],
+  "description": "Simple popup (alert) for angular usgin angular-ui's modal service and boostrap.",
+  "main": "src/js/PopupService.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "popup",
+    "modal",
+    "angular",
+    "simple",
+    "easy",
+    "alert",
+    "prompt",
+    "error"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "demo",
+    ".gitignore",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": "1.2.*",
+    "angular-bootstrap": "0.11.*",
+    "bootstrap": "3.1.*"
+  }
+}
