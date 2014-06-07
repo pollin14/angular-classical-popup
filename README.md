@@ -1,12 +1,12 @@
-angularjs-popup-service
+angular-popup-service
 =======================
 
-Modern, simple and fancy popup (alert, prompt, info) for Angularjs, for not using the javascript's native popups.
+Modern, simple and fancy popup (alert, prompt, info) for Angular, for not using the javascript's native popups.
 
 What does it do?
 -----------
 
-This service create a classical popup box (alert, prompt and info) of **JavaScript** but using the modal service of [angular-ui-bootstraps](http://angular-ui.github.io/bootstrap/). So the script execution is not stopped and the experience visual is got better.
+This service create a classical popup box (alert, prompt and info) as native**JavaScript** pops but using the modal service of [angular-ui-bootstraps](http://angular-ui.github.io/bootstrap/). So the script execution is not stopped and the experience visual is got better.
 
 This service uses **bootstrap 3**, **angular** and **angular-ui**.
 
@@ -21,7 +21,6 @@ Usage
 ```javascript
 
 angular.module('PopupApp',['PopupService']);
-
 ```
 
 2. Inject the _PopupService_ in you controller or service.
