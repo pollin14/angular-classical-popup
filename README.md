@@ -6,7 +6,7 @@ Modern, simple and fancy popup (alert, prompt, info) for Angular, for not using 
 What does it do?
 -----------
 
-This service create a classical popup box (alert, prompt and info) as native**JavaScript** pops but using the modal service of [angular-ui-bootstraps](http://angular-ui.github.io/bootstrap/). So the script execution is not stopped and the experience visual is got better.
+This service create a classical popup box (alert, prompt and info) like native **JavaScript** pops but using the modal service of [angular-ui-bootstraps](http://angular-ui.github.io/bootstrap/). So the script execution is not stopped and the experience visual is got better.
 
 This service uses **bootstrap 3**, **angular** and **angular-ui**.
 
@@ -32,7 +32,7 @@ angular.module('PopupController',['$scope', 'Popup', function($scope, Popup)
 {
     $scope.showAlert = function()
     {
-        Popup.alert('Title', 'This is an alert','alert alert-success');
+        Popup.alert('This is an alert','title optional');
     }
 }]);
 
