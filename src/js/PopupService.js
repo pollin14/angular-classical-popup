@@ -21,7 +21,7 @@ angular.module('PopupService',['ui.bootstrap'])
 		'<div class="modal-footer">'+
 			'<button type="button" class="btn btn-danger btn-xs" '+
 			'ng-click="close()">Cerrar</button>'+
-		'</div>',,
+		'</div>',
 		size : 'sm',
 		controller : function($scope, $modalInstance, message, title)
 		{
