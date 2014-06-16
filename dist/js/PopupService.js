@@ -11,9 +11,9 @@ angular.module('PopupService',['ui.bootstrap'])
 		template :
 		'<div class="modal-header">'+
 			'<h3 class="modal-title">&nbsp;{{title}}'+
-			'<a style="text-decoration: none; cursor: pointer; "'+
+			'<a style="text-decoration: none; cursor: pointer;" '+
 				'class="glyphicon glyphicon-remove pull-right" '+
-			'ng-click="close()"></a></h3>'+
+				'ng-click="close()"></a></h3>'+
 		'</div>'+
 		'<div class="modal-body">'+
 			'{{message}}'+
